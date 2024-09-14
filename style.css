@@ -1,0 +1,289 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    font-family: "Open Sans", sans-serif;
+}
+.container{
+    margin: 0 320px;
+}
+
+.header{
+    width: 1920px;
+    height: 875px;
+    background-image: url(img/1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0 auto;
+    scrollbar-width:none;
+}
+.nav{
+    width: 100%;
+    height: 105px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.nav ul{
+    display: flex;
+    gap: 32px;
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 19.2px;
+}
+
+.li{
+    color: #F57520;
+}
+
+.icons{
+    display: flex;
+    gap: 45px;
+    color: white;
+}
+
+.text{
+    margin-top: 80px;
+    width: 100%;
+    height: 100%;
+}
+
+.h1{
+    width: 679px;
+    height: 227px;
+    color: white;
+    font-weight: 700;
+    font-size: 96px;
+}
+
+.p{
+    width: 645px;
+    height: 87px;
+    color: white;
+    font-weight: 600px;
+    font-size: 16px;
+    margin-top: 48px;
+}
+
+.button_first{
+    width: 180px;
+    height: 52px;
+    border-radius: 10px;
+    text-align: center;
+    background-color: #F57520;
+    color: white;
+    margin-top: 40px;
+}
+
+.h2{
+    margin: 0 auto;
+    width: 384px;
+    height: 56px;
+    font-size: 64px;
+    font-weight:800;
+}
+
+.section_parent{
+    background-color: lightgrey;
+    height: 1000px
+
+ 
+}
+
+.katalog{
+    width: 1920px;
+    margin: 0 auto;
+
+}
+.katalog-content{
+    width: 100%;
+    color: white;
+    margin-top: 90px;
+}
+
+.card-top{
+    width: 1280px;
+    height: 300px;
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+.kartochki-vnizu{
+    display: flex;
+}
+
+.kartochki-vnizu-prava{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px;
+}
+
+.prava-kartochki{
+    width: 400px;
+    height: 216px;
+    gap: 40px;
+    font-size: 48px;
+    gap: 80px;
+    font-size: 64px;
+    font-weight: 800;
+}
+
+.track-section{
+   
+
+}
+
+.shtum{
+    text-align: center;
+    margin-top: 157px;
+    font-size: 64px;
+    font-weight: 800px;
+}
+
+.div{
+    display: flex;
+    flex-wrap: wrap;
+    gap:25px;
+    margin-top:100px
+}
+
+.grid-ite{
+    width: 400px;
+    height: 462px;
+    border-radius: 10px;
+    background-color: orange;
+}
+
+.date{
+    padding: 24px;
+}
+
+.p_text{
+    padding: 50px;
+    width: 380px;
+    font-size: 16px;
+    height: 87px;
+    font-weight: 600;
+    margin: 0 auto;
+    
+}
+
+.katalog {
+    background-color: grey;
+}
+
+.track-section{
+    background-color: gray;
+}
+
+.grid-item{
+    width: 400px;
+    height: 462px;
+    border-radius: 10px;
+    background-color: black;
+    color: white;
+}
+
+.image-container{
+
+}
+
+.contact-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #FF6600;
+    padding: 50px;
+    color: white;
+  }
+
+  .form-container {
+    max-width: 50%;
+  }
+  
+  .form-container .bike-text {
+    font-size: 40px;
+    margin-bottom: 200px;
+    width: 620px;
+  }
+
+  .form-row {
+    display: flex;
+    gap: 15px;
+    margin-bottom: 15px;
+  }
+
+  input, textarea, button {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+  }
+
+  .text{
+    width: 608px;
+    height: 154px;
+    margin-top: 10px;
+    border-radius: 10px;
+    padding: 10px 16px 10px 16px;
+  }
+
+.sect-but{
+    width: 608px;
+    height: 52px;
+    border-radius: 10px;
+    padding: 16px 80px 16px 80px;
+    background-color: white;
+    color: red;
+    text-align: center;
+    margin-top: 20px;
+}
+
+footer{
+    background-color: #222;
+    padding: 20px;
+    color: white;
+    margin-top: -20px;
+    height: 370px;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.footer-logo img {
+    max-width: 100px;
+    margin-top: 140px;
+}
+
+.footer-links {
+    display: flex;
+    gap: 50px;
+    margin-top: 140px;
+}
+
+.footer-contact{
+    margin-top: 140px;
+}
+
+.h4{
+    font-size: 24px;
+    margin-top: -10px;
+}
+
+a{
+    margin-top: 10px;
+}
+
+
+
